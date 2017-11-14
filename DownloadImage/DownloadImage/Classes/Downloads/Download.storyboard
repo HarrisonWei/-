@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="mi5-W5-N0b">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Download View Controller-->
+        <scene sceneID="gk8-QO-C9c">
+            <objects>
+                <tableViewController id="mi5-W5-N0b" customClass="DownloadViewController" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="100" sectionHeaderHeight="28" sectionFooterHeight="28" id="1HA-vL-OnB">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell" rowHeight="100" id="467-CM-fly" customClass="DownloadCell">
+                                <rect key="frame" x="0.0" y="28" width="375" height="100"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="467-CM-fly" id="32Y-Iu-BVm">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="99.5"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="aBz-0y-pH7" userLabel="图片">
+                                            <rect key="frame" x="10" y="10" width="80" height="80"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="80" id="JeS-Gj-Zy8"/>
+                                                <constraint firstAttribute="width" constant="80" id="Nva-6B-zvs"/>
+                                            </constraints>
+                                        </imageView>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QNL-YJ-QgT" userLabel="游戏名">
+                                            <rect key="frame" x="109" y="10" width="42" height="21"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QhD-Xa-572" userLabel="下载量">
+                                            <rect key="frame" x="109" y="69" width="42" height="21"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstItem="QNL-YJ-QgT" firstAttribute="top" secondItem="aBz-0y-pH7" secondAttribute="top" id="N1M-VB-Ttl"/>
+                                        <constraint firstItem="aBz-0y-pH7" firstAttribute="centerY" secondItem="32Y-Iu-BVm" secondAttribute="centerY" id="ThM-sY-S0p"/>
+                                        <constraint firstItem="QhD-Xa-572" firstAttribute="leading" secondItem="aBz-0y-pH7" secondAttribute="trailing" constant="19" id="dS5-3E-aF1"/>
+                                        <constraint firstItem="QhD-Xa-572" firstAttribute="bottom" secondItem="aBz-0y-pH7" secondAttribute="bottom" id="hXD-eq-wMH"/>
+                                        <constraint firstItem="aBz-0y-pH7" firstAttribute="leading" secondItem="32Y-Iu-BVm" secondAttribute="leading" constant="10" id="oZV-1k-YD5"/>
+                                        <constraint firstItem="QNL-YJ-QgT" firstAttribute="leading" secondItem="aBz-0y-pH7" secondAttribute="trailing" constant="19" id="txG-eB-EgU"/>
+                                    </constraints>
+                                </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="iv_icon" destination="aBz-0y-pH7" id="mI8-qy-eHP"/>
+                                    <outlet property="lb_download" destination="QhD-Xa-572" id="RYz-JN-muY"/>
+                                    <outlet property="lb_name" destination="QNL-YJ-QgT" id="6Ic-mw-Eet"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="mi5-W5-N0b" id="V9V-yN-um9"/>
+                            <outlet property="delegate" destination="mi5-W5-N0b" id="dev-aB-M5z"/>
+                        </connections>
+                    </tableView>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bJ9-Yk-9Z8" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="255.19999999999999" y="15.742128935532236"/>
+        </scene>
+    </scenes>
+</document>

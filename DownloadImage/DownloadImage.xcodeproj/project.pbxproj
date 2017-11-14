@@ -9,23 +9,40 @@
 /* Begin PBXBuildFile section */
 		6165AEAA1FB8485300FA657E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6165AEA91FB8485300FA657E /* main.m */; };
 		6165AEAD1FB8485300FA657E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6165AEAC1FB8485300FA657E /* AppDelegate.m */; };
-		6165AEB01FB8485300FA657E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6165AEAF1FB8485300FA657E /* ViewController.m */; };
-		6165AEB31FB8485300FA657E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6165AEB11FB8485300FA657E /* Main.storyboard */; };
 		6165AEB51FB8485300FA657E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6165AEB41FB8485300FA657E /* Assets.xcassets */; };
 		6165AEB81FB8485300FA657E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6165AEB61FB8485300FA657E /* LaunchScreen.storyboard */; };
+		6165AEC41FB9ABEB00FA657E /* DownloadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6165AEC31FB9ABEB00FA657E /* DownloadViewController.m */; };
+		6165AEC61FB9ABFB00FA657E /* Download.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6165AEC51FB9ABFB00FA657E /* Download.storyboard */; };
+		6165AECB1FB9AD0600FA657E /* DownloadModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6165AECA1FB9AD0600FA657E /* DownloadModel.m */; };
+		6165AECE1FB9C4DB00FA657E /* DownloadCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6165AECD1FB9C4DB00FA657E /* DownloadCell.m */; };
+		6165AED01FB9D55F00FA657E /* user_default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6165AECF1FB9D55F00FA657E /* user_default@2x.png */; };
+		6165AED21FB9D9EB00FA657E /* apps.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6165AED11FB9D9EB00FA657E /* apps.plist */; };
+		6165AED51FBB238E00FA657E /* NSString+Path.m in Sources */ = {isa = PBXBuildFile; fileRef = 6165AED41FBB238E00FA657E /* NSString+Path.m */; };
+		7BFCCC9951492C60205497F0 /* libPods-DownloadImage.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3251832A129F1D4A4A8B70B1 /* libPods-DownloadImage.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3251832A129F1D4A4A8B70B1 /* libPods-DownloadImage.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DownloadImage.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6165AEA51FB8485300FA657E /* DownloadImage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DownloadImage.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6165AEA91FB8485300FA657E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6165AEAB1FB8485300FA657E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		6165AEAC1FB8485300FA657E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		6165AEAE1FB8485300FA657E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		6165AEAF1FB8485300FA657E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		6165AEB21FB8485300FA657E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6165AEB41FB8485300FA657E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6165AEB71FB8485300FA657E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6165AEB91FB8485300FA657E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6165AEC21FB9ABEB00FA657E /* DownloadViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DownloadViewController.h; sourceTree = "<group>"; };
+		6165AEC31FB9ABEB00FA657E /* DownloadViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DownloadViewController.m; sourceTree = "<group>"; };
+		6165AEC51FB9ABFB00FA657E /* Download.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Download.storyboard; sourceTree = "<group>"; };
+		6165AEC91FB9AD0600FA657E /* DownloadModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DownloadModel.h; sourceTree = "<group>"; };
+		6165AECA1FB9AD0600FA657E /* DownloadModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DownloadModel.m; sourceTree = "<group>"; };
+		6165AECC1FB9C4DB00FA657E /* DownloadCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DownloadCell.h; sourceTree = "<group>"; };
+		6165AECD1FB9C4DB00FA657E /* DownloadCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DownloadCell.m; sourceTree = "<group>"; };
+		6165AECF1FB9D55F00FA657E /* user_default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "user_default@2x.png"; sourceTree = "<group>"; };
+		6165AED11FB9D9EB00FA657E /* apps.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = apps.plist; sourceTree = "<group>"; };
+		6165AED31FBB238E00FA657E /* NSString+Path.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Path.h"; sourceTree = "<group>"; };
+		6165AED41FBB238E00FA657E /* NSString+Path.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Path.m"; sourceTree = "<group>"; };
+		9EB1036380783C3A01367022 /* Pods-DownloadImage.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DownloadImage.release.xcconfig"; path = "Pods/Target Support Files/Pods-DownloadImage/Pods-DownloadImage.release.xcconfig"; sourceTree = "<group>"; };
+		B9B543CD8F8CFFB02B4BC4B9 /* Pods-DownloadImage.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DownloadImage.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DownloadImage/Pods-DownloadImage.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +50,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7BFCCC9951492C60205497F0 /* libPods-DownloadImage.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +62,8 @@
 			children = (
 				6165AEA71FB8485300FA657E /* DownloadImage */,
 				6165AEA61FB8485300FA657E /* Products */,
+				CA489C19588452AE8DEF38C3 /* Pods */,
+				77D997C9FDB73E0CD2CF55D4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,11 +78,9 @@
 		6165AEA71FB8485300FA657E /* DownloadImage */ = {
 			isa = PBXGroup;
 			children = (
+				6165AEBF1FB985F700FA657E /* Classes */,
 				6165AEAB1FB8485300FA657E /* AppDelegate.h */,
 				6165AEAC1FB8485300FA657E /* AppDelegate.m */,
-				6165AEAE1FB8485300FA657E /* ViewController.h */,
-				6165AEAF1FB8485300FA657E /* ViewController.m */,
-				6165AEB11FB8485300FA657E /* Main.storyboard */,
 				6165AEB41FB8485300FA657E /* Assets.xcassets */,
 				6165AEB61FB8485300FA657E /* LaunchScreen.storyboard */,
 				6165AEB91FB8485300FA657E /* Info.plist */,
@@ -79,6 +97,57 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		6165AEBF1FB985F700FA657E /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				6165AEC01FB985F700FA657E /* Downloads */,
+				6165AEC11FB985F700FA657E /* Tools */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		6165AEC01FB985F700FA657E /* Downloads */ = {
+			isa = PBXGroup;
+			children = (
+				6165AED31FBB238E00FA657E /* NSString+Path.h */,
+				6165AED41FBB238E00FA657E /* NSString+Path.m */,
+				6165AEC51FB9ABFB00FA657E /* Download.storyboard */,
+				6165AEC21FB9ABEB00FA657E /* DownloadViewController.h */,
+				6165AEC31FB9ABEB00FA657E /* DownloadViewController.m */,
+				6165AEC91FB9AD0600FA657E /* DownloadModel.h */,
+				6165AECA1FB9AD0600FA657E /* DownloadModel.m */,
+				6165AECC1FB9C4DB00FA657E /* DownloadCell.h */,
+				6165AECD1FB9C4DB00FA657E /* DownloadCell.m */,
+				6165AED11FB9D9EB00FA657E /* apps.plist */,
+				6165AECF1FB9D55F00FA657E /* user_default@2x.png */,
+			);
+			path = Downloads;
+			sourceTree = "<group>";
+		};
+		6165AEC11FB985F700FA657E /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		77D997C9FDB73E0CD2CF55D4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3251832A129F1D4A4A8B70B1 /* libPods-DownloadImage.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CA489C19588452AE8DEF38C3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B9B543CD8F8CFFB02B4BC4B9 /* Pods-DownloadImage.debug.xcconfig */,
+				9EB1036380783C3A01367022 /* Pods-DownloadImage.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -86,9 +155,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6165AEBC1FB8485300FA657E /* Build configuration list for PBXNativeTarget "DownloadImage" */;
 			buildPhases = (
+				36D3E24AD4D691BB1BBE7DAF /* [CP] Check Pods Manifest.lock */,
 				6165AEA11FB8485300FA657E /* Sources */,
 				6165AEA21FB8485300FA657E /* Frameworks */,
 				6165AEA31FB8485300FA657E /* Resources */,
+				94E52CE6199507011DA04E28 /* [CP] Embed Pods Frameworks */,
+				41A16695B54B2F5421787FC8 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -139,35 +211,83 @@
 			buildActionMask = 2147483647;
 			files = (
 				6165AEB81FB8485300FA657E /* LaunchScreen.storyboard in Resources */,
+				6165AEC61FB9ABFB00FA657E /* Download.storyboard in Resources */,
 				6165AEB51FB8485300FA657E /* Assets.xcassets in Resources */,
-				6165AEB31FB8485300FA657E /* Main.storyboard in Resources */,
+				6165AED21FB9D9EB00FA657E /* apps.plist in Resources */,
+				6165AED01FB9D55F00FA657E /* user_default@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		36D3E24AD4D691BB1BBE7DAF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DownloadImage-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		41A16695B54B2F5421787FC8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DownloadImage/Pods-DownloadImage-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		94E52CE6199507011DA04E28 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DownloadImage/Pods-DownloadImage-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		6165AEA11FB8485300FA657E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6165AEB01FB8485300FA657E /* ViewController.m in Sources */,
 				6165AEAD1FB8485300FA657E /* AppDelegate.m in Sources */,
 				6165AEAA1FB8485300FA657E /* main.m in Sources */,
+				6165AEC41FB9ABEB00FA657E /* DownloadViewController.m in Sources */,
+				6165AECB1FB9AD0600FA657E /* DownloadModel.m in Sources */,
+				6165AED51FBB238E00FA657E /* NSString+Path.m in Sources */,
+				6165AECE1FB9C4DB00FA657E /* DownloadCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		6165AEB11FB8485300FA657E /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				6165AEB21FB8485300FA657E /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		6165AEB61FB8485300FA657E /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -271,6 +391,7 @@
 		};
 		6165AEBD1FB8485300FA657E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B9B543CD8F8CFFB02B4BC4B9 /* Pods-DownloadImage.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 69356RS9K8;
@@ -283,6 +404,7 @@
 		};
 		6165AEBE1FB8485300FA657E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9EB1036380783C3A01367022 /* Pods-DownloadImage.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 69356RS9K8;
@@ -312,6 +434,7 @@
 				6165AEBE1FB8485300FA657E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
